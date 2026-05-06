@@ -1,0 +1,76 @@
+# Paths
+projectPath: "/sps/bioaster/Projects/SIBYLLE_BA039/BA039-WP4-XDATA-02/SIBYLLE_2025_clean_pipeline_for_paper/"
+dataPath: "Data/"
+outputPath: "Analyses/"
+mousePath: "biovacsafe_mouse"
+humanPath: "biovacsafe_human"
+
+# Tissues of interest
+tissuesOfInterest:
+  mouse:
+  - "muscle"
+  - "blood"
+  human:
+  - "blood"
+
+# Reactogenicity classification
+lowReactoClass:
+- "Saline"
+- "Engerix B"
+- "Agrippal"
+- "PolyIC"
+mediumReactoClass:
+- "Fluad"
+- "IFA"
+highReactoClass:
+- "LPS"
+- "Pentavac SD"
+
+# Low count gene filtering
+lowCountThreshold:
+  mouse:
+    muscle:
+    - 5.0
+    blood:
+    - 5.0
+  human:
+    blood:
+    - 5.0
+
+# Colors per treatment
+colorsPerTreatment:
+  mouse:
+    treatments:
+    - "Engerix B"
+    - "IFA"
+    - "LPS"
+    - "Pentavac SD"
+    - "PolyIC"
+    - "Agrippal"
+    - "Fluad"
+    - "Saline"
+    colors:
+    - "#fc8d62"
+    - "brown4"
+    - "#00ABFF"
+    - "#FFA500"
+    - "purple4"
+    - "magenta"
+    - "#a6d854"
+    - "darkgrey"
+  human:
+    treatments:
+    - "Engerix B"
+    - "Varilrix"
+    - "Stamaril"
+    - "Agrippal"
+    - "Fluad"
+    - "Saline"
+    colors:
+    - "#fc8d62"
+    - "navajowhite2"
+    - "cornflowerblue"
+    - "magenta"
+    - "#a6d854"
+    - "darkgrey"
+
