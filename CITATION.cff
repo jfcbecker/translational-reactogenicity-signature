@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated publication."
+title: "translational-reactogenicity-signature"
+abstract: "R analysis pipeline used to derive and validate a cross-species transcriptomic signature of vaccine reactogenicity, trained on mouse muscle transcriptomes and transferred to mouse blood and human blood."
+authors:
+  - family-names: Becker
+    given-names: Jérémie
+    affiliation: BIOASTER, Lyon, France
+  - family-names: Roelens
+    given-names: Maroussia
+    affiliation: BIOASTER, Lyon, France
+  - family-names: Reynaud
+    given-names: Kendra
+    affiliation: BIOASTER, Lyon, France
+  - family-names: Beloeil
+    given-names: Laurent
+    affiliation: BIOASTER, Lyon, France
+license: MIT
+repository-code: "https://github.com/jfcbecker/translational-reactogenicity-signature"
+preferred-citation:
+  type: article
+  title: "A translational transcriptomic signature of vaccine reactogenicity for the evaluation of novel formulations"
+  authors:
+    - family-names: Becker
+      given-names: Jérémie
+    - family-names: Roelens
+      given-names: Maroussia
+    - family-names: Reynaud
+      given-names: Kendra
+    - family-names: Beloeil
+      given-names: Laurent
+  journal: eLife
+  year: 2026
+  doi: 10.7554/eLife.109928.1
+  url: "https://elifesciences.org/reviewed-preprints/109928"
